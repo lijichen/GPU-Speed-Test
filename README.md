@@ -9,7 +9,7 @@ H100/800:
 <br>
 nvcc -O3 -std=c++17   -gencode=arch=compute_90,code=sm_90   gpu_stress_nccl_g2g_link.cu   -o gpu_stress_nccl   -ldl -Xcompiler -pthread
 
-{content: }
+```Bash
 The example:
 # ./gpu_stress_nccl
 CUDA GPUs: 8
@@ -250,4 +250,4 @@ NCCL version code: 23004
 NCCL AllReduce buffer/rank: 0.25 GiB
 NCCL AllReduce algBW: 2.05 GB/s
 NCCL AllReduce busBW/link estimate: 3.58 GB/s
-{content: }
+```
