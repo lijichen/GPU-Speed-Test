@@ -1,3 +1,7 @@
+gpu_stress_nccl for CUDA 13.2 host<br>
+gpu_stress_nccl for H100/H800 host with a lower CUDA version.<br>
+gpu_stress_nccl_g2g_link.cu CUDA source file<br>
+
 gpu_stress_nccl usage:
 <img width="1028" height="390" alt="image" src="https://github.com/user-attachments/assets/cf43dbc1-22f2-4f29-803f-fb45e60e7500" />
 <br>
